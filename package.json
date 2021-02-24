@@ -1,0 +1,20 @@
+{
+  "name": "bio-bot",
+  "version": "1.0.0",
+  "description": "A simple serverless Slack Bot Built for the Elder INTERalliance GitHub workshop! 👥",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElderINTERalliance/bio-bot.git"
+  },
+  "keywords": [],
+  "author": "Kevin Long <kevinuulong@gmail.com> (https://kevinuulong.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ElderINTERalliance/bio-bot/issues"
+  },
+  "homepage": "https://github.com/ElderINTERalliance/bio-bot#readme"
+}
