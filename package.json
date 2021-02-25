@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ElderINTERalliance/bio-bot/issues"
   },
-  "homepage": "https://github.com/ElderINTERalliance/bio-bot#readme"
+  "homepage": "https://github.com/ElderINTERalliance/bio-bot#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
 }
