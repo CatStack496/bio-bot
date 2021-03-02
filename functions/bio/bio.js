@@ -1,7 +1,8 @@
 const querystring = require('querystring');
 const fetch = require('node-fetch');
+require('dotenv').config()
 
-const handler = async (event, context) => {
+const handler = async (event) => {
     try {
         const payload = querystring.parse(event.body);
         // This gets any parameters received from the command as a String
@@ -11,10 +12,8 @@ const handler = async (event, context) => {
         const resUrl = payload.response_url;
         // Remove spaces from `name` for use in a URL
         const parseName = name.replace(/ /gm, '');
-        // A URL could probably be hard-coded here, but we can also get the current URL from the request headers or context
-        const siteUrl = event.headers['x-forwarded-host'] || extractNetlifySiteFromContext(context);
         // Form the URL to get the JSON data from
-        const jsonUrl = `https://${siteUrl}/${parseName}.json`;
+        const jsonUrl = `https://${process.env.SITE_URL}/${parseName}.json`;
         // Try to find `parseName.json` and set its contents as the value
         let response = await fetch(jsonUrl, {
             headers: {
@@ -46,9 +45,3 @@ const handler = async (event, context) => {
 }
 
 module.exports = { handler }
-
-function extractNetlifySiteFromContext(context) {
-    data = context.clientContext.custom.netlify
-    decoded = JSON.parse(Buffer.from(data, "base64").toString("utf-8"))
-    return decoded;
-}
