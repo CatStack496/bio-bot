@@ -1,0 +1,10 @@
+pull_request_rules:
+  - name: Automatic merge if only a bio.json file has been changed
+    conditions:
+      - base=main
+      - files~=.json
+      - files~=bios/
+    actions:
+      merge:
+        method: merge
+        strict: true
