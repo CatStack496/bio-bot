@@ -1,0 +1,96 @@
+{
+	"blocks": [
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Alan Mathison Turing* OBE FRS (23 June 1912 – 7 June 1954) was an English mathematician, computer scientist, logician, cryptanalyst, philosopher, and theoretical biologist. Turing was highly influential in the development of theoretical computer science, providing a formalisation of the concepts of algorithm and computation with the Turing machine, which can be considered a model of a general-purpose computer. (<https://en.wikipedia.org/wiki/Alan_Turing|Source>)"
+			},
+			"accessory": {
+				"type": "image",
+				"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Alan_Turing_Aged_16.jpg/330px-Alan_Turing_Aged_16.jpg",
+				"alt_text": "Kevin Long"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Some of his interests include:*"
+			}
+		},
+		{
+			"type": "section",
+			"fields": [
+				{
+					"type": "mrkdwn",
+					"text": ":dna: Biology"
+				},
+				{
+					"type": "mrkdwn",
+					"text": ":computer: Computer Science"
+				},
+				{
+					"type": "mrkdwn",
+					"text": ":heavy_division_sign: Math"
+				},
+				{
+					"type": "mrkdwn",
+					"text": ":robot_face: AI"
+				},
+				{
+					"type": "mrkdwn",
+					"text": ":scientist: Science"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Check out his personal profiles:"
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": ":twitter: Twitter",
+						"emoji": true
+					},
+					"url": "https://twitter.com/turinginst",
+					"action_id": "actionId-00"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": ":linkedin: LinkedIn",
+						"emoji": true
+					},
+					"url": "https://www.linkedin.com/school/the-alan-turing-institute/",
+					"action_id": "actionId-01"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": ":link: Personal Website",
+						"emoji": true
+					},
+					"url": "https://www.turing.ac.uk/",
+					"action_id": "actionId-02"
+				}
+			]
+		}
+	]
+}
