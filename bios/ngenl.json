@@ -1,0 +1,76 @@
+{
+	"blocks": [
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Lap Nguyen is a freshman at Elder High School. He has some experience coding in Python."
+			},
+			"accessory": {
+				"type": "image",
+				"image_url": "https://i0.wp.com/www.hachettebookgroup.com/wp-content/uploads/2019/01/NV_ValleyOfFire_littleny-iStock-688319298.jpg?resize=1080%2C1080&ssl=1",
+				"alt_text": "Kevin Long"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Some of his interests include:*"
+			}
+		},
+		{
+			"type": "section",
+			"fields": [
+				{
+					"type": "mrkdwn",
+					"text": "Reading"
+				},
+				{
+					"type": "mrkdwn",
+					"text": "Biking"
+				},
+				{
+					"type": "mrkdwn",
+					"text": "Learning"
+				},
+				{
+					"type": "mrkdwn",
+					"text": "Photography"
+				},
+				{
+					"type": "mrkdwn",
+					"text": "Origami"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Check out his personal profiles:"
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": ":github: GitHub",
+						"emoji": true
+					},
+					"url": "https://github.com/NgenL",
+					"action_id": "actionId-00"
+				}
+			]
+		}
+	]
+}
