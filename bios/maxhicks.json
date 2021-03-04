@@ -1,0 +1,68 @@
+{
+	"blocks": [
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": " Hyellow, I am Max Hicks from :elder:lder Highschool. Literally the only thing im good at is just about everythig Minecraft. Ive literally been playing it for just about as long as the game has existed."
+			},
+			"accessory": {
+				"type": "image",
+				"image_url": "https://avatars.githubusercontent.com/u/73456721?s=460&u=ca12a1c06be62b1353acf035d83c28608f04fe99&v=4",
+				"alt_text": "Kevin Long"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Some of my interests include:*"
+			}
+		},
+		{
+			"type": "section",
+			"fields": [
+        				{
+					"type": "mrkdwn",
+					"text": ":video_game: GAMING"
+				},
+				{
+					"type": "mrkdwn",
+					"text": ":computer: Technology"
+				},
+				{
+					"type": "mrkdwn",
+					"text": ":camera: Videography"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Check out his personal profiles:"
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": ":github: GitHub",
+						"emoji": true
+					},
+					"url": "https://github.com/CatStack496",
+					"action_id": "actionId-496"
+				}
+			]
+		}
+	]
+}
